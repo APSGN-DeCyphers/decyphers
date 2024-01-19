@@ -255,6 +255,30 @@ h2 {
 
 }
 
+.btns {
+	padding: 20px;
+	background-color: var(--purple);
+	font-family: "proxon";
+	font-size: 20px;
+	border-radius: 10px;
+	letter-spacing: 3px;
+	z-index: 100;
+	border: none;
+	font-weight: bolder;
+}
+.btns:hover {
+	cursor: pointer;
+}
+
+.btns a {
+	color: #fff;
+	text-decoration: none;	
+	transition: all 0.2s;
+}
+.btns a:hover {
+	cursor: pointer;
+	color: #001;
+}
 
 .typed-text {
 	position: relative;

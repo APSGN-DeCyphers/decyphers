@@ -159,7 +159,7 @@ nav a {
 	transition: color .4s ease;
 }
 
-nav a:hover:not(.logo-link) {
+nav a:hover {
 	color: var(--purple);
 	cursor: pointer;
 }
